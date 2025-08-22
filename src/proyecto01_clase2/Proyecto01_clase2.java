@@ -16,13 +16,15 @@ public class Proyecto01_clase2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int n1, n2, suma;
+        int n1, n2, n3, suma;
         Scanner lectura = new Scanner(System.in);
         //entrada
         System.out.println("Ingresar numero1");
         n1=lectura.nextInt();
         System.out.println("Ingresar numero2");
         n2=lectura.nextInt();
+        System.out.println("Ingresar numero3");
+        n3=lectura.nextInt();
         //proceso
         suma = n1+n2;
         //salida
